@@ -1,0 +1,44 @@
+body {
+  background-color: #000;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 12px;
+  width: 300px;
+}
+.sidebar__navigation {
+  padding: 16px 0 0 16px;
+  border-radius: 8px;
+  background-color: #121212;
+}
+
+.sidebar__navigation .logo {
+  display: flex;
+  padding: 16px 0 0 16px;
+  border-radius: 8px;
+  background-color: #121212;
+}
+.sidebar__navigation .logo img {
+  width: 80px;
+}
+
+.sidebar nav ul {
+  padding: 0 20px 10px 20px;
+  margin-top: 20px;
+}
+
+.sidebar ul li {
+  padding: 10px 0;
+}
+
+.sidebar nav ul li a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
